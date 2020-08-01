@@ -10,6 +10,7 @@ export class MotdComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
