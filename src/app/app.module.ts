@@ -9,8 +9,10 @@ import { AppService } from './shared/services/app.service';
 import { SidePanelService } from './shared/services/side-panel.service';
 import { ModalService } from './shared/services/modal.service';
 
+import { MaterialModule } from './shared/modules/material/material.module';
+
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, MaterialModule ],
   declarations: [ AppComponent, HeaderComponent, FooterComponent ],
   bootstrap:    [ AppComponent ],
   providers: [AppService, SidePanelService, ModalService]
