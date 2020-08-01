@@ -7,9 +7,11 @@ import { LeaderboardComponent } from './components/leaderboard/leaderboard.compo
 import { ProgressionComponent } from './components/progression/progression.component';
 import { MotdComponent } from './components/motd/motd.component';
 import { WeatherComponent } from './components/weather/weather.component';
+import { StockIndicesComponent } from './components/stock-indices/stock-indices.component';
+import { NewsComponent } from './components/news/news.component';
 
 @NgModule({
   imports: [CommonModule, DashboardRoutingModule],
-  declarations: [DashboardComponent, StatsComponent, LeaderboardComponent, ProgressionComponent, MotdComponent, WeatherComponent]
+  declarations: [DashboardComponent, StatsComponent, LeaderboardComponent, ProgressionComponent, MotdComponent, WeatherComponent, StockIndicesComponent, NewsComponent]
 })
 export class DashboardModule {}
