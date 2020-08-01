@@ -9,7 +9,6 @@ import { HeaderComponent } from "./shared/components/header/header.component";
 import { FooterComponent } from "./shared/components/footer/footer.component";
 import { AppService } from "./shared/services/app.service";
 import { SidePanelService } from "./shared/services/side-panel.service";
-import { ModalService } from "./shared/services/modal.service";
 
 import { MaterialModule } from "./shared/modules/material/material.module";
 import { SidenavButtonListComponent } from "./shared/components/sidenav-button-list/sidenav-button-list.component";
@@ -32,6 +31,6 @@ import { AppRoutingModule } from "./app-routing.module";
     SidenavButtonListComponent
   ],
   bootstrap: [AppComponent],
-  providers: [AppService, SidePanelService, ModalService]
+  providers: [AppService, SidePanelService]
 })
 export class AppModule {}
